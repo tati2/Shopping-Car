@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap");
+* {
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  max-width: 1360px;
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding: 4px;
+  background: #eee9e9;
+  height: 27px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 53%;
+}
+.cardlist-container {
+  width: 40%;
+  height: 98vh;
+}
+.cardlist-box {
+  border: 1px solid #000;
+  height: 100vh;
+  overflow: scroll;
+  width: 80%;
+  margin: auto;
+}
+.cardlist-boxes {
+  width: 80%;
+  margin: auto;
+}
+.cardlist {
+  border: solid 1px rgb(91, 192, 222);
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+.total-box {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  font-weight: 900;
+  font-size: x-large;
+}
+.cardlist-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px rgb(91, 192, 222);
+  padding: 5px;
+  color: #fff;
+  background-color: rgb(91, 192, 222);
+  height: 25px;
+}
+.cardlist-product {
+  display: flex;
+  justify-content: space-around;
+}
+.card-box {
+  border: 1px solid rgb(211, 211, 211);
+  margin: 1%;
+  min-width: 193px;
+  min-height: 145px;
+  border-radius: 3%;
+}
+.card-box:hover {
+  border: solid 1px rgb(91, 192, 222);
+}
+.card-box:hover .card-title {
+  background-color: rgb(91, 192, 222);
+  color: #fff;
+}
+
+.btn-choice {
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  border-style: none;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
+}
+.cardlist-btn {
+  border-radius: 50%;
+  background-color: #fff;
+  color: rgb(91, 192, 222);
+  border-style: none;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
+}
+.reset-btn {
+  width: 100%;
+  background-color: rgb(91, 192, 222);
+  border: solid 1px rgb(91, 192, 222);
+  color: #fff;
+  cursor: pointer;
+}
+.card-details {
+  text-align: center;
+}
+
+.carrinho {
+  border: 2px solid #000;
+  height: 40vh;
+  width: 40vw;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
